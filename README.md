@@ -39,5 +39,5 @@ You can try to run it locally running:
 
 ```
 docker build -f grafana .
-docker run -it -p 3000:3000 grafana
+docker run -it -p 3000:3000 --env-file=.env grafana
 ```
